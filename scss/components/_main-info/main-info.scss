@@ -1,0 +1,57 @@
+.main-info{
+   
+    padding-bottom: 76px;
+    text-align: center;
+    justify-content: space-between;
+    .wrapper-text{
+        text-align: center;
+        padding-bottom: 90px;
+
+            
+        h2 {
+           
+            @include title ($fz-30, $col-on-bg, $upp, $fw-b);
+            color: $col-title-bg-logo;
+           
+        }
+            p {
+                font-size: 20px;
+                color: $col-title-bg-logo; 
+                line-height: 1.8; 
+            }
+        
+    }
+
+      
+        .image {
+            margin-right: 38px;
+           
+            img {
+            height: 45px; 
+            width: 45px;
+            object-fit: contain;
+            }    
+        }
+            h3 {
+                font-size: 16px;
+                @extend %flex-element-center;
+                color: $col-text;
+                padding-bottom: 22px;
+                text-transform: uppercase;
+                font-weight: bold;
+                
+                }
+            p {
+                font-size: $main-fz-text;
+                color: $col-text;
+                line-height: 1.8;
+            }
+      
+       .main-info-column {
+           width: 50%;
+       }
+     
+    
+}
+          
+           

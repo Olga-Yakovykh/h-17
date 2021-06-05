@@ -1,0 +1,74 @@
+.components{
+        padding: 150px 0 145px 0;
+
+    
+
+.wrapper-components {
+    .components-article {
+        text-align: center;
+        padding-bottom: 100px;
+
+        h3 {
+        @include title ( $fz-30, $col-on-bg, $upp, $fw-b);
+        color: $col-title-bg-logo;
+       
+        
+        }
+        p {
+            font-size: 18px;
+            color: $col-title-bg-logo;
+        }
+    }
+}
+    .arrow::before {        
+            content: url(../img/Arrow_3.png);
+            position: absolute;
+            right: -33%;
+            top: -25px;
+        }
+
+    .arrow-third::before {
+            content: url(../img/Arrow_3.png);
+            position: absolute;
+            right: -33%;
+            top: -25px;
+    }
+    .arrow-second::after {
+            content: url(../img/Arrow_2.png);
+            position: absolute;
+            right: -33%;
+            top: 50px;
+        }
+
+    .items-wrapper {
+        padding-bottom: 94px;
+        position: relative;
+
+        h5 {
+            font-size: 20px;
+            color: #394b50;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: $main-fz-text;
+            color: $col-text;
+        }
+
+       
+        img{
+        padding-bottom: 99px;
+        }
+}
+    
+
+    .btn-style {
+        padding: 18px 28px;
+        color: $col-on-bg;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        &:hover {
+            box-shadow: 2px 2px 2px 2px #e7ad47;
+        }
+    }
+}

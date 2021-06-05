@@ -1,0 +1,86 @@
+.banner {
+        background: #709dca;
+        text-align: center;
+        padding: 109px 0 0 0;
+        margin-bottom: 204px;
+
+    .wrapper-title {
+        padding-bottom: 35px;
+        
+        h1 {
+            @include title ($fz-35, $col-on-bg, $upp, $fw-b);
+        }
+        p {
+            font-size: $fz-text-p;
+            color: $col-on-bg;
+        }
+        img {
+            height: 400px;
+            width: 100%;
+        }
+    }
+
+    form {
+
+        
+        .inp-style {
+            border-left: none;
+            border-radius: 0 .25rem .25rem 0;
+            padding: 0.385rem 3.5rem 0.385rem 0;
+            border-radius: 0px 2px 2px 0;
+            box-shadow: none;
+            border: 1px solid #ced4da;
+            border-left: none;
+
+        }
+        .inp {
+            background: #ffffff;
+            display: block;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            padding: 16px;
+            font-size: $fz-btn;
+            background-clip: padding-box;
+            color: #6e6e6e;
+            border-radius: .25rem 0 0 .25rem;
+            border: 1px solid #ced4da;
+            border-right: none;
+             -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        [type="button"] {
+            background: $col-main;
+            border: $col-main;
+            color: $col-on-bg;
+            text-transform: uppercase;
+            font-size: $fz-btn;
+            padding: 17px 44px;
+            border-radius: 2px 2px 2px 2px!important;
+
+            &:hover {
+                box-shadow: 2px 2px 2px 2px #e7ad47;
+            }
+        }
+
+    }
+    .carousel-inner {
+        transform: translateY(100px);
+    }
+    .carousel-indicators{
+        position: relative;
+        [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #1ba7dd;
+        transform: translateY(120px);
+    }
+    }  
+ 
+    .carousel-item-padding {
+        padding: 0 20%;
+    }
+}

@@ -1,0 +1,14 @@
+@media (max-width:992px){
+    footer{
+        .collapse {
+            display: block!important;
+            flex-direction: column;
+            text-align: center;
+            .navbar-nav {
+                a{
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}

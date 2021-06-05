@@ -1,0 +1,37 @@
+footer {
+    
+ 
+    .nav-style {
+        padding-bottom: 25px;
+        a {
+            font-size: $fz-link;
+            color: $col-title-bg-logo;
+            text-transform: uppercase;
+            padding: 0 14px;
+        }
+
+    }
+    .media-wrapper {
+        padding-bottom: 20px;
+        a {
+            font-size: 20px;
+            color: $col-title-bg-logo;
+            text-decoration: none;
+        }
+    }
+    .icons-wrapper {
+        padding-bottom: 52px;
+        img {
+           padding: 0 4px; 
+        }
+        
+    }
+    .footer-wrapper {
+        background-color: #709dca;
+        padding: 17px;
+        p{
+            font-size: $main-fz-text;
+            color: $col-on-bg;
+        }
+    }
+}

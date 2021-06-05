@@ -1,0 +1,13 @@
+@media (max-width: 992px) {
+    header {
+        nav{
+            ul {
+                li{
+                    &:not(:last-child) {
+                       margin-right: 0; 
+                    }
+                }
+            }
+        }
+    }
+}

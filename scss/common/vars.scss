@@ -1,0 +1,32 @@
+                    // font size//
+
+                        //btn//
+$main-fz-text: 13px;
+$fz-btn: 14px; 
+$fz-text-p: 16px;
+$fz-title: 30px;
+$fz-link: 13px;
+
+                        //color//
+$col-card: #818b95;
+$col-main: #ffbb42;
+$col-bg: #ffc155;
+$col-on-bg: #fff;
+$col-text: #7b7b7b;
+$col-title-bg-logo: #394b50;
+
+
+                        //mixin//
+$col-on-bg: #fff; 
+$upp: uppercase; 
+$fw-b: bold;
+$fz-35: 35px;
+$fz-30: 30px;
+
+                                //extend//
+
+
+%flex-element-center {
+    display: flex;
+    flex-direction: column;
+  }

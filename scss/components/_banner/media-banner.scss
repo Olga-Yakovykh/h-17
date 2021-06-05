@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+    .banner {
+        form {
+            .input-group{
+                
+               .mail-style {
+                    margin-right: 0 !important;
+                
+            }
+            [type="button"] {
+                width: 100%;
+            }
+            .m-b {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    }
+}
+@media (max-width:767px) {
+    .banner {
+        padding-top: 60px;
+
+        form {
+            .input-group {
+                padding: 0;
+                .inp-marg {
+                    margin-right: 0 !important;
+                }
+                .col-xs-12 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .banner {
+        form {
+            .input-group {
+                padding: 0 12px;
+            }
+        }
+    }
+}

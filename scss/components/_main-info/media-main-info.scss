@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+    .main-info {
+
+        .image {
+            margin-right: 0;
+        }
+
+        .wrapper-text {
+            padding-bottom: 20px;
+        }
+        .text-items {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main-info {
+
+        .text-items {
+            flex-direction: column;
+            .col-xs-12 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@mixin title ( $fz-35, $col-on-bg, $upp, $fw-b)
+{
+    font-size: $fz-35;
+    color: $col-on-bg;
+    text-transform: $upp;
+    font-weight: $fw-b;
+    
+}

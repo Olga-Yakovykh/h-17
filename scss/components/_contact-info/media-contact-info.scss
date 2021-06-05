@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+   .wrapper-form {
+       padding-top: 100px;
+       form {
+           .input-group {
+            .col-xs-12 {
+            width: 100%;
+        }
+        .mar {
+            margin-right: 0 !important;
+        }
+    }
+       }
+   } 
+}
